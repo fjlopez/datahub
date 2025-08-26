@@ -1,0 +1,17 @@
+[project]
+name = "datahub"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Francisco J Lopez-Pellicer",email = "fjlopez@unizar.es"}
+]
+readme = "README.md"
+requires-python = "3.11.10"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+acryl-datahub = "^1.2.0.6"
